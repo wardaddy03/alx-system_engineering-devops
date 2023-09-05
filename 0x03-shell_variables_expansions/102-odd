@@ -1,2 +1,2 @@
-#!/bin/nash
-paste -d, - - | cut -d, -f1
+#!/bin/bash
+\ls -1 | paste -d, - -
